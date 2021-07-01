@@ -2,6 +2,7 @@
  * Ronijan
  * version 1.0.0
  * 2021
+ * https://github.com/ronijan/cookie-banner
  */
 
 const b = document.querySelector('.cookie-banner-container'),
