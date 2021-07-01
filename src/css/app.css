@@ -1,0 +1,82 @@
+/**
+ * Ronijan
+ * version 1.0.0
+ * 2021
+ */
+
+body {
+    font-family: serif;
+}
+
+.cookie-banner-container,
+.cookie-banner-container * {
+    box-sizing: border-box;
+}
+
+.cookie-banner-container {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 60px;
+    background: #303030;
+    color: #e3e2e2;
+    user-select: none;
+}
+
+.cookie-banner-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cookie-banner-icon {
+    padding: 1px 3px;
+    margin-bottom: -3px
+}
+
+.cookie-banner-container a {
+    color: #0481d4;
+}
+
+.cookie-banner-container .cookie-banner-text {
+    float: left;
+    font-size: 16px;
+}
+
+.cookie-banner-container .cookie-banner-accept {
+    float: right;
+}
+
+.cookie-banner-container .cookie-banner-accept a {
+    border: 1px solid #e3e2e2;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .cookie-banner-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: inherit;
+        height: auto;
+    }
+
+    .cookie-banner-container .cookie-banner-text {
+        width: 100%;
+    }
+
+    .cookie-banner-container .cookie-banner-accept {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .cookie-banner-container .cookie-banner-accept a {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
