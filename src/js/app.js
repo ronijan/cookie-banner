@@ -5,8 +5,8 @@
  * https://github.com/ronijan/cookie-banner
  */
 
-const b = document.querySelector('.cookie-banner-container'),
-    accept = document.querySelector('.cookie-banner-accept');
+const b = document.querySelector('.ro-container'),
+    accept = document.querySelector('.ro-btn-accept');
 if (!localStorage.COOKIES_MONTH) {
     b.style.display = "inherit";
 } else {
